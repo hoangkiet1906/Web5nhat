@@ -1,0 +1,91 @@
+/* general class */
+.container-fluid {
+    margin-left: 20px;
+    margin-top: 50px;
+}
+
+/* panel  */
+.row1 {
+    width: 70%;
+    /*max-height: 220px;*/
+    float: left;
+    border-radius: 5px;
+    background-color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.row:first-child {
+    margin-top: 0px;
+}
+.panel {
+    border-radius: 5px;
+    background-color: white;
+}
+.card-img img{
+    width: 100%;
+    min-width: 150px;
+    max-width: 300px;
+    float: left;
+    clear: right;
+    margin-right: 15px;
+    display: inline;
+    margin-top: 30px;
+    overflow: hidden;
+}
+.card-title h5 {
+    color: black;
+}
+.card-info {
+    padding: 10px;
+    display: inline;
+}
+.btn-type {
+    font-size: 13px;
+    border: 0.5px solid rgb(245, 201, 118);
+    background-color: rgb(231, 222, 205);
+    padding: 4px;
+    margin-left: 7px;
+    border-radius: 3px;
+}
+/* card tag */
+.card {
+    vertical-align: top;
+    margin: 10px;
+    float: left;
+    width: 27%;
+    margin-right: 20px;
+}
+.card-header {
+    background-image: linear-gradient(to right,rgb(55, 223, 255),  rgb(255, 255, 138) );
+}
+.card-body .btn-type{
+    margin-top: 10px;
+}
+.card-body p {
+    margin-top: 20px;
+}
+ .timtt{
+    background: #fff;
+  border-radius: 4px 0 0 4px;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+   border: 0;
+  padding: 4px 8px;
+  width: calc(100% - 50px);
+ }
+ .timok{
+  border: 0;
+  background: none;
+  font-size: 16px;
+  padding: 4px 10px;
+  background: #00BB00;
+  color: #fff;
+  transition: 0.3s;
+  border-radius: 0 4px 4px 0;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+ }
+.timok:hover{
+ background: #FF0066;}
+ 
+::-webkit-scrollbar { 
+    display: none; 
+}

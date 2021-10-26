@@ -1,0 +1,165 @@
+/* .container-img{
+background-repeat: no-repeat, repeat;
+  background-color: #1E1E1E;
+  background-size: cover;
+  margin-top: 30px;
+  width: 400px;
+  height: 400px;
+} */
+
+/* .pre-img{
+  height: 100%;
+  width: 100%;
+  background-color: #1E1E1E;
+  opacity: 0;
+}
+
+.pre-img:hover{
+  color: #fff;
+  font-size: 80px;
+  padding-top: 30%;
+  opacity: 0.5;
+} */
+
+/* .img-port01{
+  background-image: url("https://i.pinimg.com/originals/18/7d/51/187d516ee193ee33172edc939e4c412e.jpg");
+}
+.img-port02{
+  background-image: url("https://www.i-decoracion.com/Uploads/i-decoracion.com/ImagenesGrandes/como-crear-decoracion-lounge.jpg");
+}
+.img-port03{
+  background-image: url("https://i.pinimg.com/originals/6e/b7/4c/6eb74ceca3b7b62afb80efdbd256eeff.jpg");
+}
+.img-port04{
+  background-image: url("https://pbs.twimg.com/media/CFTMwUbUIAAEheK.jpg");
+}
+.img-port05{
+  background-image: url("http://www.lagabe.com/wp-content/uploads/2015/04/open-soggiorni-jesse-23.jpg");
+}
+.img-port06{
+  background-image: url("https://fabalabs.org/images/header6.jpg");
+}
+
+.img-port07{
+  background-image: url("https://www.azulinehotels.com/themes/default/thumbs/152c933a3cae71cbf56bdf14b6287852.jpg");
+}
+.img-port08{
+  background-image: url("http://www.somsolucionesmobiliarias.com/wp-content/uploads/2016/11/3CFFB88F6CFB470F8BC28267D82A967C.jpg");
+}
+.img-port09{
+  background-image: url("http://www.duotek.es/Imagenes/Comercios/Hosteleria/Bukoi/04d.jpg");
+}
+
+.img-port10{
+  background-image: url("../images/Prodeco-decoration-online_store.jpg");
+} */
+/* 
+.span3{
+  padding: 20px;
+  margin-bottom: 50px;
+} */
+
+
+/* .indicators02>li{
+  background-color: #003760;
+
+}
+
+.indicators02>li:hover{
+  background-color: #005492;
+
+} */
+
+.carousel-indicators .active {
+  background-color: #FAAB47;
+
+}
+
+.modal-content{
+  border-radius: 0px;
+  border:none;
+}
+
+.img-mod .carousel-caption{
+  color: #1E1E1E;
+  background: #fff;
+  bottom:-5px;
+  padding-right: 30%;
+  position: relative;
+}
+
+.img-mod .carousel-caption >h4{
+  font-size: 19px;
+}
+
+.img-mod .carousel-caption >p{
+  color: gray;
+  font-size: 14px;
+}
+
+.img-mod .carousel-control-prev{
+  background: #fff;
+  width: 60px; 
+  height: 50px;
+  margin: 61% 10px 10px 10px;
+}
+
+.img-mod .carousel-control-next{
+  background: #fff; 
+  width: 60px; 
+  height: 50px;
+  margin:61% 10px 10px 10px;
+}
+
+
+.img-mod .carousel-item > img {
+  width: auto;
+  height: 460px;
+  border: #c2c2c2 solid 1px;
+  }
+
+.sec-space{
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+
+.titulos01{
+  padding-top: 80px;
+  padding-bottom: 30px;
+  font-style: italic;
+  font-family: 'Noticia Text', serif;
+}
+
+.titulos01 > h1, h2  {
+   letter-spacing: 2.5px;
+   color: grey;
+   font-size: 20px;
+}
+
+.titulos01 > h3{
+   letter-spacing: 3px;
+   color: grey;
+   font-size: 14px;
+}
+
+.btn-tipo01{
+  background: #1E1E1E;
+  color: #fff;
+  padding: 10px 25px 10px 25px;
+  border:none;
+  border-radius: 0px;
+  margin-top: 10px
+}
+
+.btn-tipo01:hover{
+  background: #FAAB47;
+  color: #1E1E1E;
+}
+
+.bar-neu{
+  background: #c2c2c2;
+  height: 40px;
+  width: 2px;
+  display: block;
+margin-bottom: 5px;
+}

@@ -1,0 +1,192 @@
+
+
+#wrapper {
+  padding-left: 0;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+#sidebar-wrapper {
+  border-radius: 0 10px 10px 10px;
+  z-index: 0;
+  position: absolute;
+  right: 0;
+  width: 0;
+  height: 500px;
+  margin-left: -250px;
+  overflow-y: auto;
+  background: none;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  padding-top: 30px;
+  color: white;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+  width: 250px;
+}
+
+#page-content-wrapper {
+  width: 100%;
+  position: absolute;
+  padding: 0px;
+}
+
+#wrapper.toggled #page-content-wrapper {
+  position: absolute;
+  margin-right: -250px;
+}
+
+
+
+
+
+@media(min-width:768px) {
+  #wrapper {
+    padding-left: 250px;
+  }
+  #wrapper.toggled {
+    padding-left: 0;
+  }
+  #sidebar-wrapper {
+    width: 250px;
+    left: 250px
+  }
+  #wrapper.toggled #sidebar-wrapper {
+    width: 0;
+  }
+  #page-content-wrapper {
+  
+    padding: 0px;
+    position: absolute;
+  }
+  #wrapper.toggled #page-content-wrapper {
+    position: absolute;
+    margin-right: 0;
+  }
+}
+
+
+
+
+
+
+
+
+.checklist{
+  padding:0;
+}
+
+.checklist ul li{ 
+  font-size:14px;
+  font-weight:400;
+  list-style:none;
+  padding: 7px 0 7px 23px;
+
+}
+.checklist li span{
+  float:left;
+  width:11px;
+  height:11px;
+  margin-left:-23px;
+  margin-top:4px;
+  border: 1px solid #d1d3d7;
+  position:relative;  
+
+}
+.sizes li span, .categories .sizes li{
+  -webkit-transition: all 300ms ease-out;
+     -moz-transition: all 300ms ease-out;
+      -ms-transition: all 300ms ease-out;
+       -o-transition: all 300ms ease-out;
+          transition: all 300ms ease-out;
+}
+.checklist li a{
+  color:#A9A9A9;
+
+  text-decoration:none; 
+  -webkit-transition: all 300ms ease-out;
+     -moz-transition: all 300ms ease-out;
+      -ms-transition: all 300ms ease-out;
+       -o-transition: all 300ms ease-out;
+          transition: all 300ms ease-out;
+}
+.checklist li a:hover{  
+  color:white;
+  -webkit-transition: all 300ms ease-out;
+     -moz-transition: all 300ms ease-out;
+      -ms-transition: all 300ms ease-out;
+       -o-transition: all 300ms ease-out;
+          transition: all 300ms ease-out;
+}
+.checklist a:hover span{  
+  border-color:#a6aab3; 
+}
+
+.checklist a span span{border:none;margin:0;float:none; position:absolute;top:0;left:0;}
+.checklist a .x{
+  display:block;
+  width:0;   
+  height:2px;
+  background:#5ff7d2;
+  top:6px;
+  left:2px; 
+  -ms-transform: rotate(45deg); 
+    -webkit-transform: rotate(45deg); 
+    transform: rotate(45deg); 
+  -webkit-transition: all 50ms ease-out;
+}
+.checklist a .x.animate{
+  width:4px;
+  -webkit-transition: all 100ms ease-in;
+     -moz-transition: all 100ms ease-in;
+      -ms-transition: all 100ms ease-in;
+       -o-transition: all 100ms ease-in;
+          transition: all 100ms ease-in;
+}
+.checklist a .y{
+  display:block;
+  width:0px; 
+  height:2px;
+  background:#5ff7d2;
+  top:4px;
+  left:3px; 
+  -ms-transform: rotate(13deg); 
+    -webkit-transform: rotate(135deg); 
+    transform: rotate(135deg);  
+  -webkit-transition: all 50ms ease-out;
+}
+.checklist a .y.animate{
+  width:8px;
+  -webkit-transition: all 100ms ease-out;
+     -moz-transition: all 100ms ease-out;
+      -ms-transition: all 100ms ease-out;
+       -o-transition: all 100ms ease-out;
+          transition: all 100ms ease-out;
+}
+.checklist .checked span{
+  border-color:#8d939f;
+}
+.colors ul, .sizes ul{
+  float:left; width:100px;  
+}
+.colors ul li{padding-left: 0px; margin-left: -10px;}
+.colors a span{
+  border:none;
+  position:relative;
+  border-radius:100%;
+  background-color:#eae3d3;
+  width:13px;
+  height:13px;
+  margin-left:-20px;
+}
+.colors a:hover span{
+  width:15px;
+  height:15px;
+  margin-top:3px;
+  margin-left:-20px;
+}

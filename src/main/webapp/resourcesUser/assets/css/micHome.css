@@ -1,0 +1,21 @@
+.microphone {
+    cursor: pointer;
+    color: #D40202;
+}
+
+.microphone .recording-icon {
+    display: none;
+    width: 15px;
+    height: 15px;
+    background-color: #e22d2d;
+    border-radius: 50%;
+    animation: pulse 1.5s infinite linear;
+}
+
+.microphone.recording .recording-icon {
+    display: inline-block;
+}
+
+.microphone.recording .fa-microphone {
+    display: none;
+}
